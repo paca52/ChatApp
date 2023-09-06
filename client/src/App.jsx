@@ -5,7 +5,7 @@ import io from 'socket.io-client'
 import Login from './pages/LoginPage/Login'
 import Chat from './pages/ChatPage/Chat'
 
-const socket = io.connect('http://localhost:4000'); 
+const socket = io.connect('https://chatappwebserver.onrender.com/'); 
 
 const App = () => {
   const [username, setUsername] = useState('');
