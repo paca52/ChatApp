@@ -52,7 +52,7 @@ const MessageList = ({ socket, username }) => {
   }, [messagesRecieved]);
 
   return (
-    <div className="overflow-y-scroll w-full grow">
+    <div className="block-shadow overflow-y-scroll w-full grow">
       {
         messagesRecieved.map((msg, i) => (
           <div className="block-shadow m-4 p-4 flex flex-col flex-wrap justify-center items-start" key={i}>
