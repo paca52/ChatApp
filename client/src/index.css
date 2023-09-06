@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .block-shadow {
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+    border-radius: 5px;
+    background: #fff;
+  }
+}
