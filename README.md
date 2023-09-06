@@ -2,7 +2,12 @@
 # Chat App
 
 Chat App built using React, Express, NodeJs, Socket.io, Tailwind and HarperDB.
-
+This is a dev branch, go to client page for a working solution.
+If you want to create your own server, download this brantch and add .env file that contains:
+```
+HARPERDB_URL="<your_url_here>"
+HARPERDB_PW="Basic <your_pass_here>"
+```
 
 
 ## Run Locally
