@@ -1,9 +1,9 @@
 
+import React, { useState } from "react"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import io from 'socket.io-client'
 import Login from './pages/LoginPage/Login'
 import Chat from './pages/ChatPage/Chat'
-import io from 'socket.io-client'
-import { useState } from "react"
 
 const socket = io.connect('http://localhost:4000'); 
 
