@@ -17,7 +17,7 @@ const Chat = ({ username, room, socket }) => {
         <UserList socket={socket} username={username} room={room} />
       </div>
 
-      <div className="basis-9/12 p-5 overflow-hidden flex flex-col bg-gray-200">
+      <div className="block-shadow basis-9/12 p-5 overflow-hidden flex flex-col bg-gray-200">
         <MessageList socket={socket} username={username} />
         <SendButton socket={socket} username={username} room={room} />
       </div>
